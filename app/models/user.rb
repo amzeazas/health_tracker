@@ -11,4 +11,6 @@ class User < ActiveRecord::Base
   validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\Z/
   has_many :meals
   has_many :foods, :through => :meals
+  has_many :workouts
+  has_many :exercises, :through => :workouts
 end
