@@ -4,8 +4,8 @@
       "/Users/Guest/Desktop/health_tracker/spec/models/exercise_spec.rb": [
         1,
         null,
-        1,
-        1,
+        null,
+        null,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/rails_helper.rb": [
@@ -558,15 +558,15 @@
       "/Users/Guest/Desktop/health_tracker/spec/models/food_spec.rb": [
         1,
         null,
-        1,
-        1,
+        null,
+        null,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/models/meal_spec.rb": [
         1,
         null,
-        1,
-        1,
+        null,
+        null,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/models/user_spec.rb": [
@@ -576,16 +576,20 @@
         2,
         2,
         2,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/models/workout_spec.rb": [
         1,
         null,
-        1,
-        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1446136688
+    "timestamp": 1446136867
   }
 }
