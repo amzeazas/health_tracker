@@ -592,11 +592,12 @@
       "/Users/Guest/Desktop/health_tracker/spec/models/workout_spec.rb": [
         1,
         null,
-        null,
-        null,
+        1,
+        2,
+        2,
         null
       ]
     },
-    "timestamp": 1446137808
+    "timestamp": 1446137837
   }
 }
