@@ -4,8 +4,11 @@
       "/Users/Guest/Desktop/health_tracker/spec/models/exercise_spec.rb": [
         1,
         null,
-        null,
-        null,
+        1,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/rails_helper.rb": [
@@ -590,6 +593,6 @@
         null
       ]
     },
-    "timestamp": 1446136867
+    "timestamp": 1446137646
   }
 }

@@ -1,5 +1,8 @@
 require 'rails_helper'
 
-# RSpec.describe Exercise, type: :model do
-#   pending "add some examples to (or delete) #{__FILE__}"
-# end
+describe Exercise do
+  it { should validate_presence_of :activity }
+  it { should validate_presence_of :calories_burned }
+  it { should have_many :workouts }
+  it { should have_many(:users).through(:workouts) }
+end

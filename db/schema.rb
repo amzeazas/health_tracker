@@ -11,19 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151028204925) do
+ActiveRecord::Schema.define(version: 20151029164844) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "exercises", force: :cascade do |t|
-    t.string   "name",            null: false
+    t.string   "activity",        null: false
     t.integer  "calories_burned", null: false
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
 
-  add_index "exercises", ["name"], name: "index_exercises_on_name", unique: true, using: :btree
+  add_index "exercises", ["activity"], name: "index_exercises_on_activity", unique: true, using: :btree
 
   create_table "foods", force: :cascade do |t|
     t.string   "name",       null: false
