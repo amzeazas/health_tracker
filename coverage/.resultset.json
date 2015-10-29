@@ -571,8 +571,9 @@
       "/Users/Guest/Desktop/health_tracker/spec/models/meal_spec.rb": [
         1,
         null,
-        null,
-        null,
+        1,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/models/user_spec.rb": [
@@ -596,6 +597,6 @@
         null
       ]
     },
-    "timestamp": 1446137724
+    "timestamp": 1446137808
   }
 }
